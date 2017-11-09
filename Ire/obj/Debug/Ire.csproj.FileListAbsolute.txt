@@ -1,0 +1,13 @@
+c:\users\pavel\documents\visual studio 2015\Projects\Ire\Ire\bin\Debug\Ire.exe.config
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\bin\Debug\Ire.exe
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\bin\Debug\Ire.pdb
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.csprojResolveAssemblyReference.cache
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Properties.Resources.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.csproj.GenerateResource.Cache
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.exe
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.pdb
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Form4.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.FormMain.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.FormKiller.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Form5.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Form6.resources
