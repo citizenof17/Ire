@@ -11,3 +11,4 @@ C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.FormM
 C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.FormKiller.resources
 C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Form5.resources
 C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.Form6.resources
+C:\Users\Pavel\documents\visual studio 2015\Projects\Ire\Ire\obj\Debug\Ire.FormDeer.resources

@@ -117,4 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Phoenix Park is an urban park in Dublin, lying 2–4 km west of the city centre, north of the River Liffey. It is one of the largest enclosed recreational spaces within any European capital city. It includes large areas of grassland and tree-lined avenues, and since the 17th century has been home to wild fallow deer. There is a big zoo and residence of the President within the park. The English name comes from the Irish fionn uisce meaning "clear water".</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Wow, we are back in Dublin. It seems only one task left. As you probably know, Irish language was influenced by English, and there are two official languages in Ireland. Irish English is the set of English dialects natively written and spoken within the island of Ireland. It differs a lot from the Standard variant of the English language. There are some features of Irish English. According to them try to guess the words in transcription. </value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Features: 
+- «Th» becomes[t] and[d] instead of[θ] and[ð].
+- The diphthongs[əʊ] and[eɪ] tend to be monophthongs[o:] and[e:].
+- In the closed syllable the letter U will be pronounced as [ʊ] instead of[ʌ].
+-The sound[ai] is pronounced similar to[oi].
+-English is full of words that end in -ing, but you wouldn't hear an Irishman admitting it, at least not in a natural context. They pronounce it with the replacement of [ŋ] sound.</value>
+  </data>
 </root>

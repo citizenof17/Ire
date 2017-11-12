@@ -7,68 +7,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace Ire
 {
     public partial class Form6 : Form
     {
-        PairStr[] rules = new PairStr[] { new PairStr("abc", "zzz"),
-                                            new PairStr("abd", "zkz")};  //add rules
-        int n;
+        int n = 5;
+
+        ArrayList good = new ArrayList { "bright", "healthy", "face", "morning", "bus" };
+        ArrayList ans = new ArrayList(5);
 
         public Form6()
         {
             InitializeComponent();
-            n = rules.Length;
-            for (int i = 0; i < n; i++)
-            {
-                label2.Text += rules[i].first + " -> " + rules[i].second + "\n";
-            }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            string t1 = textBox1.Text;
-            string t2 = textBox2.Text;
-            t1 = t1.ToLower();
-            t2 = t2.ToLower();
+            bool flag = true;
+            flag = flag && (textBox1.Text.ToLower().Equals((string)good[0]));
+            flag = flag && (textBox2.Text.ToLower().Equals((string)good[1]));
+            flag = flag && (textBox3.Text.ToLower().Equals((string)good[2]));
+            flag = flag && (textBox4.Text.ToLower().Equals((string)good[3]));
+            flag = flag && (textBox5.Text.ToLower().Equals((string)good[4]));
 
-            string t3;
-
-            bool find = true;
-            while (find)
+            if (flag)
             {
-                t3 = t1;
-
-                find = false;
-                for(int i = 0; i < n; i++)
-                {
-                    t1 = t1.Replace(rules[i].first, rules[i].second);
-                    find = find || !(t3.Equals(t1));
-                }
-            }
-
-            if (t1.Equals(t2))
-            {
-                FormKiller f = new FormKiller(this, "Nice!");
+                Form f = new FormDeer(this);
                 f.Show();
             }
-            else
-            {
-                MessageBox.Show("You are wrong, try again.");
-            }
-        }
-    }
-
-    public class PairStr
-    {
-        public string first;
-        public string second;
-
-        public PairStr(string t1, string t2)
-        {
-            first = t1;
-            second = t2;
         }
     }
 }
