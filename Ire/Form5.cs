@@ -16,25 +16,9 @@ namespace Ire
         int last = 0;
         int from = -1;
         int[] answ = new int[]{ 3, 2, 0, 1, 4 };
-        //StringBuilder cur = new StringBuilder("");
-        //StringBuilder answ = new StringBuilder("32014");
         ArrayList boxes; //маленькие изображения
         ArrayList oldBoxes; //основные изображения
 
-        //public void test(int num)
-        //{
-        //    if (last == num + 1)
-        //    {
-        //        last--;
-        //        int f = ((Pair)boxes[last]).first;
-        //        ((PictureBox)oldBoxes[f]).Enabled = true;
-        //        ((PictureBox)oldBoxes[f]).Visible = true;
-        //        ((Pair)boxes[last]).first = -1;
-        //        ((Pair)boxes[last]).second.Image = null;
-        //        cur.Remove(cur.Length - 1, 1);
-        //        pictureBox1.AllowDrop = true;
-        //    }
-        //}
 
         public Form5()
         {
@@ -108,34 +92,8 @@ namespace Ire
             pictureBox1.AllowDrop = true;
         }
 
-        //private void pictureBox8_Click(object sender, EventArgs e)
-        //{
-        //    test(0);
-        //}
-
-        //private void pictureBox9_Click(object sender, EventArgs e)
-        //{
-        //    test(1);
-        //}
-
-        //private void pictureBox10_Click(object sender, EventArgs e)
-        //{
-        //    test(2);
-        //}
-
-        //private void pictureBox11_Click(object sender, EventArgs e)
-        //{
-        //    test(3);
-        //}
-
-        //private void pictureBox12_Click(object sender, EventArgs e)
-        //{
-        //    test(4);
-        //}
-
         private void button1_Click(object sender, EventArgs e)
         {
-            //if (cur.Equals(answ))
             if(last == 5)
             {
                 FormKiller f = new FormKiller(this, "Good job! You’re one step closer to find the treasure!");

@@ -34,18 +34,21 @@
             // 
             // label1
             // 
+            this.label1.Font = new System.Drawing.Font("Harrington", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(25, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 94);
+            this.label1.Size = new System.Drawing.Size(457, 127);
             this.label1.TabIndex = 0;
             this.label1.Text = "Good job! You are right! You have a chance to find Irish Treasure of Leprechauns " +
     "and to become true Irish!";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 144);
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Harrington", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(159, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(191, 73);
             this.button1.TabIndex = 1;
             this.button1.Text = "Continue";
             this.button1.UseVisualStyleBackColor = true;
@@ -55,7 +58,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(267, 203);
+            this.ClientSize = new System.Drawing.Size(515, 364);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;

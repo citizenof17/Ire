@@ -10,21 +10,20 @@ using System.Windows.Forms;
 
 namespace Ire
 {
-    public partial class FormDeer : Form
+    public partial class FormFinal : Form
     {
-        Form f;
-        public FormDeer(Form parent)
+        public FormFinal()
         {
             InitializeComponent();
-            f = parent;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void FormFinal_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form final = new FormFinal();
-            final.Show();
-            FormMain.instance.final = true;
-            f.Close();
+            FormMain.instance.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
     }

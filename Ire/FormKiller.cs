@@ -22,6 +22,7 @@ namespace Ire
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FormMain.Counter++;
             f.Close();
             this.Close();
         }

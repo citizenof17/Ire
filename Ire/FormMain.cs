@@ -12,10 +12,17 @@ namespace Ire
 {
     public partial class FormMain : Form
     {
+        static public int Counter = 0;
+        static public FormMain instance;
+        public bool final = false;
 
         public FormMain()
         {
-            InitializeComponent();
+            if (instance == null)
+            {
+                InitializeComponent();
+                instance = this;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,8 +65,11 @@ namespace Ire
 
             form.FormClosed += (object s, FormClosedEventArgs args) =>
             {
-                Visible = true;
-                Enabled = true;
+                if (!final)
+                { 
+                    Visible = true;
+                    Enabled = true;
+                }
             }; ;
         }
     }

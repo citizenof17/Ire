@@ -70,6 +70,12 @@
     <Compile Include="FormDeer.Designer.cs">
       <DependentUpon>FormDeer.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFinal.Designer.cs">
+      <DependentUpon>FormFinal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormKiller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormDeer.resx">
       <DependentUpon>FormDeer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFinal.resx">
+      <DependentUpon>FormFinal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormKiller.resx">
       <DependentUpon>FormKiller.cs</DependentUpon>
